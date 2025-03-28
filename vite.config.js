@@ -10,6 +10,6 @@ export default defineConfig({
     tailwindcss(),
   ],
   build: {
-    outDir: 'dist' // Vercel expects this by default
+    outDir: 'build' // Vercel expects this by default
   }
 })
